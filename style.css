@@ -45,6 +45,12 @@ body {
     transform: translateZ(300px) translateX(60px);
   }
 }
+@media only screen and (max-width: 760px) {
+  .pl {
+    position: absolute;
+    left: -40%;
+  }
+}
 .sun-sh {
   position: absolute;
   height: 200px;
