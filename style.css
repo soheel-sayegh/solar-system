@@ -11,7 +11,7 @@ body {
   left: 0px;
   padding: 20px;
   height: 700px;
-  width: 1200px;
+  width: 100%;
   background: black;
   background-image: url(star1.jpg);
   background-repeat: repeat;
@@ -32,10 +32,8 @@ body {
 }
 .pl {
   position: absolute;
-  left: 165px;
-  padding: 20px;
-  height: 800px;
-  width: 800px;
+  left: 10%;
+
   animation: translet 10s infinite ease-in-out alternate;
 }
 @keyframes translet {
@@ -44,7 +42,7 @@ body {
   }
 
   100% {
-    transform: translateZ(650px) translateX(60px);
+    transform: translateZ(300px) translateX(60px);
   }
 }
 .sun-sh {
